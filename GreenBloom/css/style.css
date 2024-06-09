@@ -1,0 +1,99 @@
+@font-face {
+    font-family: agoka;
+    src: url(./../assets/typos/agoka.otf);
+}
+@font-face {
+    font-family: newyork;
+    src: url(./../assets/typos/newYork.otf);
+}
+@font-face {
+    font-family: brema;
+    src: url(./../assets/typos/brema.ttf);
+}
+@font-face {
+    font-family: cigra;
+    src: url(./../assets/typos/cigra.ttf);
+}
+@font-face {
+    font-family: rattani;
+    src: url(./../assets/typos/rattani.otf);
+}
+@font-face {
+    font-family: libertinus;
+    src: url(./../assets/typos/libertinus.otf);
+}
+
+:root{
+    /* colors */
+    --blue: #B1C9C0;
+    --green-1: #a6db93;
+    --green-2: #49856e;
+    --brown: #B57F50;
+    --brown-2: rgb(91, 63, 39);
+    --night: ##000F08;
+    /* colors 0.8*/
+    --green-1-80: rgba(166, 219, 147, 0.8);
+    --green-2-80: rgba(73, 133, 110, 0.8);
+    --brown-80: rgba(181, 127, 80, 0.8);
+    --night-80: rgba(0, 15, 8, 0.8);
+    /* colors 0.6*/
+    --green-1-60: rgba(166, 219, 147, 0.6);
+    --green-2-60: rgba(73, 133, 110, 0.6);
+    --brown-60: rgba(181, 127, 80, 0.6);
+    --night-60: rgba(0, 15, 8, 0.6);
+    /* colors 0.4*/
+    --green-1-40: rgba(166, 219, 147, 0.4);
+    --green-2-40: rgba(73, 133, 110, 0.4);
+    --brown-40: rgba(181, 127, 80, 0.4);
+    --night-40: rgba(0, 15, 8, 0.4);
+    /* colors 0.2*/
+    --green-1-20: rgba(166, 219, 147, 0.2);
+    --green-2-20: rgba(73, 133, 110, 0.2);
+    --brown-20: rgba(181, 127, 80, 0.2);
+    --night-20: rgba(0, 15, 8, 0.2);
+}
+
+
+
+
+
+
+
+.video__container--video{
+    opacity: 0.85;
+}
+.video__container--text{
+    font-family: brema;
+    color: white;
+}
+
+.titulo{
+    font-size: auto;
+    padding-top: 50px;
+}
+.subtitulo{
+    font-size: 120px;
+}
+
+/* LATEST PRODUCTS */
+.latest-product{
+    transition-duration: 0.5s;
+}
+.latest-product:hover{
+    /* scale: 1.05; */
+    background-color: var(--green-2-40);
+}
+/* FEATURED PRODUCTS */
+.featured-products{
+    background-color: var(--green-1);
+}
+.featured-product{
+    transition-duration: 0.5s;
+}
+.featured-product:hover{
+    scale: 1.1;
+}
+.card-description{
+    top: -55px;
+    background-color: var(--blue);
+}

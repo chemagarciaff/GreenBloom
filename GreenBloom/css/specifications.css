@@ -1,0 +1,59 @@
+@font-face {
+    font-family: libertinus;
+    src: url(./../assets/typos/libertinus.otf);
+}
+:root{
+    /* colors */
+    --green-1: #a6db93;
+    --green-2: #49856e;
+    --brown: #B57F50;
+    --night: ##000F08;
+    /* colors 0.8*/
+    --green-1-80: rgba(166, 219, 147, 0.8);
+    --green-2-80: rgba(73, 133, 110, 0.8);
+    --brown-80: rgba(181, 127, 80, 0.8);
+    --night-80: rgba(0, 15, 8, 0.8);
+    /* colors 0.6*/
+    --green-1-60: rgba(166, 219, 147, 0.6);
+    --green-2-60: rgba(73, 133, 110, 0.6);
+    --brown-60: rgba(181, 127, 80, 0.6);
+    --night-60: rgba(0, 15, 8, 0.6);
+    /* colors 0.4*/
+    --green-1-40: rgba(166, 219, 147, 0.4);
+    --green-2-40: rgba(73, 133, 110, 0.4);
+    --brown-40: rgba(181, 127, 80, 0.4);
+    --night-40: rgba(0, 15, 8, 0.4);
+    /* colors 0.2*/
+    --green-1-20: rgba(166, 219, 147, 0.2);
+    --green-2-20: rgba(73, 133, 110, 0.2);
+    --brown-20: rgba(181, 127, 80, 0.2);
+    --night-20: rgba(0, 15, 8, 0.2);
+}
+
+.title-main{
+    top: 35%;
+}
+
+.title-main__title{
+    font-size: 55px;
+    color: var(--green-2);
+}
+.tables{
+    background-color: var(--green-1);
+}
+.table__title{
+    color: var(--green-2);
+}
+.section__title{
+    color: var(--green-2);
+}
+.section__award{
+    background-color: var(--green-1);
+}
+.section__award .card{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.row__element:hover{
+    background-color: var(--green-1);
+}

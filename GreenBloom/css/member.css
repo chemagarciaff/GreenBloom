@@ -1,0 +1,9 @@
+
+
+.form{
+    height: 1250px;
+}
+@font-face {
+    font-family: libertinus;
+    src: url(./../assets/typos/libertinus.otf);
+}

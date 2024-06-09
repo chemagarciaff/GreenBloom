@@ -1,0 +1,132 @@
+@font-face {
+    font-family: agoka;
+    src: url(./../assets/typos/agoka.otf);
+}
+@font-face {
+    font-family: newyork;
+    src: url(./../assets/typos/newYork.otf);
+}
+@font-face {
+    font-family: brema;
+    src: url(./../assets/typos/brema.ttf);
+}
+@font-face {
+    font-family: cigra;
+    src: url(./../assets/typos/cigra.ttf);
+}
+@font-face {
+    font-family: rattani;
+    src: url(./../assets/typos/rattani.otf);
+}
+@font-face {
+    font-family: libertinus;
+    src: url(./../assets/typos/libertinus.otf);
+}
+:root{
+    /* colors */
+    --green-1: #a6db93;
+    --green-2: #49856e;
+    --brown: #B57F50;
+    --night: ##000F08;
+    /* colors 0.8*/
+    --green-1-80: rgba(166, 219, 147, 0.8);
+    --green-2-80: rgba(73, 133, 110, 0.8);
+    --brown-80: rgba(181, 127, 80, 0.8);
+    --night-80: rgba(0, 15, 8, 0.8);
+    /* colors 0.6*/
+    --green-1-60: rgba(166, 219, 147, 0.6);
+    --green-2-60: rgba(73, 133, 110, 0.6);
+    --brown-60: rgba(181, 127, 80, 0.6);
+    --night-60: rgba(0, 15, 8, 0.6);
+    /* colors 0.4*/
+    --green-1-40: rgba(166, 219, 147, 0.4);
+    --green-2-40: rgba(73, 133, 110, 0.4);
+    --brown-40: rgba(181, 127, 80, 0.4);
+    --night-40: rgba(0, 15, 8, 0.4);
+    /* colors 0.2*/
+    --green-1-20: rgba(166, 219, 147, 0.2);
+    --green-2-20: rgba(73, 133, 110, 0.2);
+    --brown-20: rgba(181, 127, 80, 0.2);
+    --night-20: rgba(0, 15, 8, 0.2);
+}
+
+body{
+    box-sizing: border-box;
+    background-color: rgba(238, 238, 238, 0.5);
+    font-family: libertinus;
+}
+
+p{
+    margin: 0;
+}
+
+
+/* HEADER */
+.nav{
+    background-color: var(--brown);
+    opacity: 0.9;
+}
+
+header .nav-link:hover{
+    color: var(--green-1);
+}
+
+.img-logo{
+    width: 240px;
+}
+.fa-user{
+    font-size: 25px;
+}
+.navbar-nav li a{
+    font-size: 20px;
+}
+.navbar-nav li a:hover{
+    size: 1.1;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+.container-footer{
+    background-color: var(--brown);
+    color: rgb(228, 228, 228);
+}
+
+.lists-footer li{
+    color: white;
+}
+
+.list-group li{
+    background-color: #00140c00;
+}
+
+.list-group li:hover{
+    scale:1.05;
+}
+
+.list-group li:first-of-type{
+    scale:1.05;
+    color: var(--green-1);
+}
+
+.modal-HEADER button{
+    background-color: var(--green-1)
+}
+
+.rrss i:hover{
+    color: var(--green-1);
+    scale: 1.1;
+}
+.terms_conditions{
+}
+
+.text-btn{
+    color: var(--green-1);
+
+}

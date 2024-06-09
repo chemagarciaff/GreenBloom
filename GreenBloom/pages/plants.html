@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants</title>
+    <link rel="shortcut icon" href="./../assets/images/logo_png_verde-1.png" type="image/x-icon">
+
+    <!----------------------------------- BOOTSTRAP LINK ------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!----------------------------------- FONTAWESOME LINK ------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!----------------------------------- CSS LINK ------------------------------->
+    <link rel="stylesheet" href="./../css/plants.css">
+    <link rel="stylesheet" href="./../css/general.css">
+</head>
+
+<body>
+    <!----------------------------------- HEADER ------------------------------->
+    <header>
+        <nav class="position-relative navbar navbar-expand-md bg-body-primary nav w-100 ">
+
+            <div class="container-fluid nav__container d-flex ">
+
+                <a class="navbar-brand me-4" href="./../index.html"><img src="./../assets/images/texto_logo_negro.png"
+                        alt="" class="img-logo">
+                </a>
+
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse nav__list " id="navbarScroll">
+                    <ul class="navbar-nav navbar-nav-scroll d-flex flex-nowrap ">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./../index.html">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PRODUCTS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Plants</a></li>
+                                <li><a class="dropdown-item" href="#">Indoor Plants</a></li>
+                                <li><a class="dropdown-item" href="#">Outdoor Plants</a></li>
+                                <li><a class="dropdown-item" href="#">Trees</a></li>
+                                <li><a class="dropdown-item" href="#">Cactus</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="./specification.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="./member.html">LOGIN</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Default dropstart button -->
+                <div class="btn-group dropstart">
+                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-user p-2"></i>
+                    </button>
+
+
+                    <form class="dropdown-menu">
+                        <div class="mb-3 dropdown-item">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3 dropdown-item">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check ms-3">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-success ms-3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!----------------------------------- MAIN ------------------------------->
+    <main class="main">
+
+        <nav aria-label="breadcrumb" class="m-4 mt-3">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">Home</li>
+                <li class="breadcrumb-item">Plants</li>
+                <li class="breadcrumb-item active" aria-current="page">Indoor Plants</li>
+            </ol>
+        </nav>
+
+        <div class="alert alert-success col-10 mx-auto position-relative z-n1" role="alert">
+            All our products at a 20% discount!
+        </div>
+
+
+        <div class="col-10 mx-auto my-3">
+            <h2>Explore Our Featured Plants</h2>
+            <p>Immerse yourself in our wide array of carefully curated plants, ranging from lush tropical foliage to
+                delicate flowering varieties. Whether you're a seasoned gardener or a budding enthusiast, our collection
+                offers something for everyone. Browse through our handpicked selection and bring the beauty of nature
+                into
+                your home or garden. With our high-quality plants and expert guidance, creating your own botanical oasis
+                has
+                never been easier. Explore now and let your green dreams flourish!</p>
+        </div>
+
+        <!---------------------------- MAIN --------------------------->
+        <div
+            class="main-container d-flex flex-row flex-wrap justify-content-evenly p-3 py-5 col-10 mx-auto gap-3 row-gap-5">
+
+            <!---------------------------- CARD --------------------------->
+            <div class="card col-10 col-md-5 col-lg-3 text-justify">
+                <img src="./../assets/images/Productos/pothos.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-4">
+                    <h3>Pothos</h3>
+                    <p class="card-text">
+                        These versatile plants are cherished for their vibrant flowers and unique leaf shapes,
+                        making them a popular choice among gardeners and plant enthusiasts worldwide.
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Specification
+                        </button>
+                        <ul class="dropdown-menu">
+                            <div class="d-flex flex-column gap-4 p-3">
+                                <!-- SUN -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-sun fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                                <!-- WATER -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-droplet fs-4 col-2 ps-1"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>4/5</p>
+                                </div>
+                                <!--  -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-water fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------- CARD --------------------------->
+            <div class="card col-10 col-md-5 col-lg-3 position-relative">
+                <img src="./../assets/images/Productos/palmeraSalon.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-4">
+                    <h3>Palmera de Salon</h3>
+                    <p class="card-text">
+                        These versatile plants are cherished for their vibrant flowers and unique leaf shapes,
+                        making them a popular choice among gardeners and plant enthusiasts worldwide.
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Specification
+                        </button>
+                        <ul class="dropdown-menu">
+                            <div class="d-flex flex-column gap-4 p-3">
+                                <!-- SUN -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-sun fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                                <!-- WATER -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-droplet fs-4 col-2 ps-1"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>4/5</p>
+                                </div>
+                                <!--  -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-water fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------- CARD --------------------------->
+            <div class="card col-10 col-md-5 col-lg-3">
+                <img src="./../assets/images/Productos/palmaAreca.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-4">
+                    <h3>Palma Arcea</h3>
+                    <p class="card-text">
+                        These versatile plants are cherished for their vibrant flowers and unique leaf shapes,
+                        making them a popular choice among gardeners and plant enthusiasts worldwide.
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Specification
+                        </button>
+                        <ul class="dropdown-menu">
+                            <div class="d-flex flex-column gap-4 p-3">
+                                <!-- SUN -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-sun fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                                <!-- WATER -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-droplet fs-4 col-2 ps-1"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>4/5</p>
+                                </div>
+                                <!--  -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-water fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------- CARD --------------------------->
+            <div class="card col-10 col-md-5 col-lg-3">
+                <img src="./../assets/images/Productos/palma-kentia-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-4">
+                    <h3>Palma Kentia</h3>
+                    <p class="card-text">
+                        These versatile plants are cherished for their vibrant flowers and unique leaf shapes,
+                        making them a popular choice among gardeners and plant enthusiasts worldwide.
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Specification
+                        </button>
+                        <ul class="dropdown-menu">
+                            <div class="d-flex flex-column gap-4 p-3">
+                                <!-- SUN -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-sun fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                                <!-- WATER -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-droplet fs-4 col-2 ps-1"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>4/5</p>
+                                </div>
+                                <!--  -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-water fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------- CARD --------------------------->
+            <div class="card col-10 col-md-5 col-lg-3">
+                <img src="./../assets/images/Productos/monstera-deliciosa-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-4">
+                    <h3>Monstera Delicios</h3>
+                    <p class="card-text">
+                        These versatile plants are cherished for their vibrant flowers and unique leaf shapes,
+                        making them a popular choice among gardeners and plant enthusiasts worldwide.
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Specification
+                        </button>
+                        <ul class="dropdown-menu">
+                            <div class="d-flex flex-column gap-4 p-3">
+                                <!-- SUN -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-sun fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                                <!-- WATER -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-droplet fs-4 col-2 ps-1"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>4/5</p>
+                                </div>
+                                <!--  -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-water fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------- CARD --------------------------->
+            <div class="card col-10 col-md-5 col-lg-3">
+                <img src="./../assets/images/Productos/hiedra.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-4">
+                    <h3>Hiedra</h3>
+                    <p class="card-text">
+                        These versatile plants are cherished for their vibrant flowers and unique leaf shapes,
+                        making them a popular choice among gardeners and plant enthusiasts worldwide.
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Specification
+                        </button>
+                        <ul class="dropdown-menu">
+                            <div class="d-flex flex-column gap-4 p-3">
+                                <!-- SUN -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-sun fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                                <!-- WATER -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-droplet fs-4 col-2 ps-1"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>4/5</p>
+                                </div>
+                                <!--  -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-water fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------- CARD --------------------------->
+            <div class="card col-10 col-md-5 col-lg-3">
+                <img src="./../assets/images/Productos/dracaena.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-4">
+                    <h3>Dracaena Comun</h3>
+                    <p class="card-text">
+                        These versatile plants are cherished for their vibrant flowers and unique leaf shapes,
+                        making them a popular choice among gardeners and plant enthusiasts worldwide.
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Specification
+                        </button>
+                        <ul class="dropdown-menu">
+                            <div class="d-flex flex-column gap-4 p-3">
+                                <!-- SUN -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-sun fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                                <!-- WATER -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-droplet fs-4 col-2 ps-1"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>4/5</p>
+                                </div>
+                                <!--  -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-water fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------- CARD --------------------------->
+            <div class="card col-10 col-md-5 col-lg-3">
+                <img src="./../assets/images/Productos/calatheOrbifolia.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-4">
+                    <h3>Calathea Orbifolia</h3>
+                    <p class="card-text">
+                        These versatile plants are cherished for their vibrant flowers and unique leaf shapes,
+                        making them a popular choice among gardeners and plant enthusiasts worldwide.
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Specification
+                        </button>
+                        <ul class="dropdown-menu">
+                            <div class="d-flex flex-column gap-4 p-3">
+                                <!-- SUN -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-sun fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                                <!-- WATER -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-droplet fs-4 col-2 ps-1"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>4/5</p>
+                                </div>
+                                <!--  -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-water fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------- CARD --------------------------->
+            <div class="card col-10 col-md-5 col-lg-3">
+                <img src="./../assets/images/Productos/calatheaLancifolia.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-4">
+                    <h3>Calathea Ancifolia</h3>
+                    <p class="card-text">
+                        These versatile plants are cherished for their vibrant flowers and unique leaf shapes,
+                        making them a popular choice among gardeners and plant enthusiasts worldwide.
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Specification
+                        </button>
+                        <ul class="dropdown-menu">
+                            <div class="d-flex flex-column gap-4 p-3">
+                                <!-- SUN -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-sun fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                                <!-- WATER -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-droplet fs-4 col-2 ps-1"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>4/5</p>
+                                </div>
+                                <!--  -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-water fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------- CARD --------------------------->
+            <div class="card col-10 col-md-5 col-lg-3">
+                <img src="./../assets/images/Productos/palmaAreca.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-4">
+                    <h3>Palma Arcea</h3>
+                    <p class="card-text">
+                        These versatile plants are cherished for their vibrant flowers and unique leaf shapes,
+                        making them a popular choice among gardeners and plant enthusiasts worldwide.
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Specification
+                        </button>
+                        <ul class="dropdown-menu">
+                            <div class="d-flex flex-column gap-4 p-3">
+                                <!-- SUN -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-sun fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                                <!-- WATER -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-droplet fs-4 col-2 ps-1"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>4/5</p>
+                                </div>
+                                <!--  -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-water fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------- CARD --------------------------->
+            <div class="card col-10 col-md-5 col-lg-3">
+                <img src="./../assets/images/Productos/begonia.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-4">
+                    <h3>Begonia</h3>
+                    <p class="card-text">
+                        These versatile plants are cherished for their vibrant flowers and unique leaf shapes,
+                        making them a popular choice among gardeners and plant enthusiasts worldwide.
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Specification
+                        </button>
+                        <ul class="dropdown-menu">
+                            <div class="d-flex flex-column gap-4 p-3">
+                                <!-- SUN -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-sun fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                                <!-- WATER -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-droplet fs-4 col-2 ps-1"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>4/5</p>
+                                </div>
+                                <!--  -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-water fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------- CARD --------------------------->
+            <div class="card col-10 col-md-5 col-lg-3">
+                <img src="./../assets/images/Productos/aveParaiso.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-4">
+                    <h3>Ave del Paraiso</h3>
+                    <p class="card-text">
+                        These versatile plants are cherished for their vibrant flowers and unique leaf shapes,
+                        making them a popular choice among gardeners and plant enthusiasts worldwide.
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Specification
+                        </button>
+                        <ul class="dropdown-menu">
+                            <div class="d-flex flex-column gap-4 p-3">
+                                <!-- SUN -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-sun fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                                <!-- WATER -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-droplet fs-4 col-2 ps-1"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>4/5</p>
+                                </div>
+                                <!--  -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-water fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------- CARD --------------------------->
+            <div class="card col-10 col-md-5 col-lg-3">
+                <img src="./../assets/images/Productos/arbolOlivo.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-4">
+                    <h3>Arbol del Olivo</h3>
+                    <p class="card-text">
+                        These versatile plants are cherished for their vibrant flowers and unique leaf shapes,
+                        making them a popular choice among gardeners and plant enthusiasts worldwide.
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Specification
+                        </button>
+                        <ul class="dropdown-menu">
+                            <div class="d-flex flex-column gap-4 p-3">
+                                <!-- SUN -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-sun fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                                <!-- WATER -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-droplet fs-4 col-2 ps-1"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>4/5</p>
+                                </div>
+                                <!--  -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-water fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------- CARD --------------------------->
+            <div class="card col-10 col-md-5 col-lg-3">
+                <img src="./../assets/images/Productos/troncoBrasil.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-4">
+                    <h3>Tronco de brasil</h3>
+                    <p class="card-text">
+                        These versatile plants are cherished for their vibrant flowers and unique leaf shapes,
+                        making them a popular choice among gardeners and plant enthusiasts worldwide.
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Specification
+                        </button>
+                        <ul class="dropdown-menu">
+                            <div class="d-flex flex-column gap-4 p-3">
+                                <!-- SUN -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-sun fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                                <!-- WATER -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-droplet fs-4 col-2 ps-1"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>4/5</p>
+                                </div>
+                                <!--  -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-water fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------- CARD --------------------------->
+            <div class="card col-10 col-md-5 col-lg-3">
+                <img src="./../assets/images/Productos/palmeraSalon.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-4">
+                    <h3>Palmera Salon</h3>
+                    <p class="card-text">
+                        These versatile plants are cherished for their vibrant flowers and unique leaf shapes,
+                        making them a popular choice among gardeners and plant enthusiasts worldwide.
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Specification
+                        </button>
+                        <ul class="dropdown-menu">
+                            <div class="d-flex flex-column gap-4 p-3">
+                                <!-- SUN -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-sun fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                                <!-- WATER -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-droplet fs-4 col-2 ps-1"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>4/5</p>
+                                </div>
+                                <!--  -->
+                                <div class="d-flex flex-row gap-3 flex-nowrap align-middle">
+                                    <i class="fa-solid fa-water fs-4 col-2"></i>
+                                    <div class="d-flex flex-row gap-1 flex-nowrap align-middle pt-1">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                        <i class="fa-regular fa-circle"></i>
+                                    </div>
+                                    <p>3/5</p>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!---------------------------- FOOTER --------------------------->
+    <footer class="container-footer mt-5 d-flex flex-wrap">
+
+        <div class=" col-12 col-lg-3 p-4 d-flex flex-column justify-content-center ">
+            <img src="./../assets/images/texto_logo_verde-1.png" alt="">
+            <p class="d-none d-lg-block border-top text-center pt-3 mt-1">"Find the best plants on the internet here!
+                "You'll receive them in less than 48 hours!"</p>
+        </div>
+
+        <div class="lists-footer col-12 col-lg-6 p-4 d-flex flex-row flex-wrap justify-content-center align-middle">
+            <ul class="list-group list-group-flush col-12 col-lg-4 d-flex flex-column justify-content-center p-4">
+                <li class="list-group-item fw-bold">Shop</li>
+                <li class="list-group-item">Indoor Plants</li>
+                <li class="list-group-item">Outdoor Plants</li>
+                <li class="list-group-item">Trees</li>
+                <li class="list-group-item">Cactus</li>
+                <li class="list-group-item">Monstera</li>
+            </ul>
+            <ul class="list-group list-group-flush col-12 col-lg-4 d-flex flex-column justify-content-center p-4">
+                <li class="list-group-item fw-bold">Our Company</li>
+                <li class="list-group-item">Why seller</li>
+                <li class="list-group-item">About Us</li>
+                <li class="list-group-item">Career/li>
+                <li class="list-group-item">Blog</li>
+            </ul>
+            <ul class="list-group list-group-flush col-12 col-lg-4 d-flex flex-column justify-content-center p-4">
+                <li class="list-group-item fw-bold">Our App</li>
+                <li class="list-group-item">Other apps</li>
+                <li class="list-group-item">Wallet apps</li>
+                <li class="list-group-item">Job Finder App</li>
+                <li class="list-group-item">Loan App</li>
+                <li class="list-group-item">Terms and Condition</li>
+            </ul>
+
+
+        </div>
+        <div class=" col-12 col-lg-3 p-4 d-flex flex-column justify-content-center">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn border" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Terms and Conditions
+            </button>
+
+            <!-- RRSS -->
+            <div class="rrss d-flex flex-row flex-nowrap my-3 justify-content-evenly fs-2">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-twitch"></i>
+            </div>
+
+
+            <!---------------------------- TERMS AND CONDITIONS - MODAL WINDOWS --------------------------->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5 terms_conditions" id="exampleModalLabel">Terms and Conditions
+                            </h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                These terms and conditions outline the rules and regulations for the use of [Your
+                                Company
+                                Name]'s Website.
+                            </p>
+                            <p>
+                                By accessing this website, we assume you accept these terms and conditions in full. Do
+                                not
+                                continue to use [Your Company Name]'s website if you do not accept all of the terms and
+                                conditions stated on this page.
+                            </p>
+
+                            <p>
+                                The following terminology applies to these Terms and Conditions, Privacy Statement and
+                                Disclaimer Notice and any or all Agreements: "Client," "You" and "Your" refers to you,
+                                the
+                                person accessing this website and accepting the Company's terms and conditions. "The
+                                Company," "Ourselves," "We," "Our" and "Us," refers to our Company. "Party," "Parties,"
+                                or
+                                "Us," refers to both the Client and ourselves, or either the Client or ourselves. All
+                                terms
+                                refer to the offer, acceptance, and consideration of payment necessary to undertake the
+                                process of our assistance to the Client in the most appropriate manner, whether by
+                                formal
+                                meetings of a fixed duration, or any other means, for the express purpose of meeting the
+                                Client's needs in respect of provision of the Company's stated services/products, in
+                                accordance with and subject to, prevailing law of [Country]. Any use of the above
+                                terminology or other words in the singular, plural, capitalization and/or he/she or
+                                they,
+                                are taken as interchangeable and therefore as referring to same.
+                            </p>
+                            <p>
+                                Cookies
+                            </p>
+                            <p>
+                                We employ the use of cookies. By using [Your Company Name]'s website you consent to the
+                                use
+                                of cookies in accordance with [Your Company Name]'s privacy policy.
+                            </p>
+                            <p>
+                                Most of the modern-day interactive web sites use cookies to enable us to retrieve user
+                                details for each visit. Cookies are used in some areas of our site to enable the
+                                functionality of this area and ease of use for those people visiting. Some of our
+                                affiliate/advertising partners may also use cookies.
+                            </p>
+
+                            License
+
+                            Unless otherwise stated, [Your Company Name] and/or its licensors own the intellectual
+                            property rights for all material on [Your Company Name]. All intellectual property rights
+                            are reserved. You may view and/or print pages from https://www.example.com for your own
+                            personal use subject to restrictions set in these terms and conditions.
+
+                            You must not:
+
+                            Republish material from https://www.example.com
+                            Sell, rent, or sub-license material from https://www.example.com
+                            Reproduce, duplicate or copy material from https://www.example.com
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Accept Terms</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

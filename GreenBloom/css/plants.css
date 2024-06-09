@@ -1,0 +1,6 @@
+.card{
+    transition-duration: 0.1s;
+}
+.card:hover{
+    border: 1px solid var(--brown);
+}
